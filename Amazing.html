@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Colorful Visual Showcase</title>
+  <style>
+    /* Minimal styling for layout */
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+    center {
+      display: block;
+      margin: 20px auto;
+    }
+    table {
+      border-collapse: collapse;
+    }
+    td {
+      padding: 5px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Video Header -->
+  <center>
+    <video width="320" height="240" autoplay muted loop>
+      <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </center>
+
+  <!-- Page Title and Intro Text -->
+  <center>
+    <h1>Colorful Visual Showcase</h1>
+    <p>Immerse yourself in stunning visuals from across the web!</p>
+  </center>
+
+  <!-- Image Gallery with 10 Rows (Various Categories) -->
+  <center>
+    <table>
+      <!-- Row 1: Nature -->
+      <tr>
+        <td><img src="https://picsum.photos/300/200?random=1"  width="300" height="200" alt="Nature 1"></td>
+        <td><img src="https://picsum.photos/300/200?random=2"  width="300" height="200" alt="Nature 2"></td>
+        <td><img src="https://picsum.photos/300/200?random=3"  width="300" height="200" alt="Nature 3"></td>
+      </tr>
+      <!-- Row 2: Abstract -->
+      <tr>
+        <td><img src="https://picsum.photos/300/200?random=4"  width="300" height="200" alt="Abstract 1"></td>
+        <td><img src="https://picsum.photos/300/200?random=5"  width="300" height="200" alt="Abstract 2"></td>
+        <td><img src="https://picsum.photos/300/200?random=6"  width="300" height="200" alt="Abstract 3"></td>
+      </tr>
+      <!-- Row 3: Architecture -->
+      <tr>
+        <td><img src="https://picsum.photos/300/200?random=7"  width="300" height="200" alt="Architecture 1"></td>
+        <td><img src="https://picsum.photos/300/200?random=8"  width="300" height="200" alt="Architecture 2"></td>
+        <td><img src="https://picsum.photos/300/200?random=9"  width="300" height="200" alt="Architecture 3"></td>
+      </tr>
+      <!-- Row 4: Fashion -->
+      <tr>
+        <td><img src="https://picsum.photos/300/200?random=10" width="300" height="200" alt="Fashion 1"></td>
+        <td><img src="https://picsum.photos/300/200?random=11" width="300" height="200" alt="Fashion 2"></td>
+        <td><img src="https://picsum.photos/300/200?random=12" width="300" height="200" alt="Fashion 3"></td>
+      </tr>
+      <!-- Row 5: Food -->
+      <tr>
+        <td><img src="https://picsum.photos/300/200?random=13" width="300" height="200" alt="Food 1"></td>
+        <td><img src="https://picsum.photos/300/200?random=14" width="300" height="200" alt="Food 2"></td>
+        <td><img src="https://picsum.photos/300/200?random=15" width="300" height="200" alt="Food 3"></td>
+      </tr>
+      <!-- Row 6: Travel -->
+      <tr>
+        <td><img src="https://picsum.photos/300/200?random=16" width="300" height="200" alt="Travel 1"></td>
+        <td><img src="https://picsum.photos/300/200?random=17" width="300" height="200" alt="Travel 2"></td>
+        <td><img src="https://picsum.photos/300/200?random=18" width="300" height="200" alt="Travel 3"></td>
+      </tr>
+      <!-- Row 7: Art -->
+      <tr>
+        <td><img src="https://picsum.photos/300/200?random=19" width="300" height="200" alt="Art 1"></td>
+        <td><img src="https://picsum.photos/300/200?random=20" width="300" height="200" alt="Art 2"></td>
+        <td><img src="https://picsum.photos/300/200?random=21" width="300" height="200" alt="Art 3"></td>
+      </tr>
+      <!-- Row 8: Technology -->
+      <tr>
+        <td><img src="https://picsum.photos/300/200?random=22" width="300" height="200" alt="Technology 1"></td>
+        <td><img src="https://picsum.photos/300/200?random=23" width="300" height="200" alt="Technology 2"></td>
+        <td><img src="https://picsum.photos/300/200?random=24" width="300" height="200" alt="Technology 3"></td>
+      </tr>
+      <!-- Row 9: Sports -->
+      <tr>
+        <td><img src="https://picsum.photos/300/200?random=25" width="300" height="200" alt="Sports 1"></td>
+        <td><img src="https://picsum.photos/300/200?random=26" width="300" height="200" alt="Sports 2"></td>
+        <td><img src="https://picsum.photos/300/200?random=27" width="300" height="200" alt="Sports 3"></td>
+      </tr>
+      <!-- Row 10: Animals -->
+      <tr>
+        <td><img src="https://picsum.photos/300/200?random=28" width="300" height="200" alt="Animals 1"></td>
+        <td><img src="https://picsum.photos/300/200?random=29" width="300" height="200" alt="Animals 2"></td>
+        <td><img src="https://picsum.photos/300/200?random=30" width="300" height="200" alt="Animals 3"></td>
+      </tr>
+    </table>
+  </center>
+
+  <!-- Footer -->
+  <center>
+    <p>&copy; 2025 Colorful Visual Showcase</p>
+  </center>
+
+  <!-- Background Color Changer Script (Creative Light Colors) -->
+  <script>
+    function changeColor() {
+      const colors = [
+        "#FFB3BA", // light pink
+        "#FFDFBA", // light peach
+        "#FFFFBA", // light yellow
+        "#BAFFC9", // light green
+        "#BAE1FF", // light blue
+        "#D1BAFF", // light lavender
+        "#E6CCFF", // pastel purple
+        "#C6F1FF", // soft sky blue
+        "#FFCCE5", // gentle pink
+        "#D8BFD8", // thistle
+        "#F0E68C", // light khaki
+        "#E0FFFF"  // light cyan
+      ];
+      let randomColor = colors[Math.floor(Math.random() * colors.length)];
+      document.body.style.backgroundColor = "#E0FFFF";
+    }
+    setInterval(changeColor, 300);
+  </script>
+
+</body>
+</html>
